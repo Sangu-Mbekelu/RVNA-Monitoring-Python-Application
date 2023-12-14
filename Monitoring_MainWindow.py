@@ -529,7 +529,7 @@ class ServerTransferThread(QThread):
                 self.connection_var = 0
                 pass
             end_time = time.time()
-            print(f"Time elapsed connecting, transferring, and disconnecting to RIT server: {end_time - start_time} seconds")
+            # print(f"Time elapsed connecting, transferring, and disconnecting to RIT server: {end_time - start_time} seconds")
         else:
             pass
 
